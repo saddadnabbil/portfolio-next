@@ -1,7 +1,7 @@
 export const navItems = [
+  { name: "Welcome", link: "/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm highly adaptable with web design timelines",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Learning Management System",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,91 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Learning Management System - GMELS",
+    des: "A Learning Management System built with PHP, Laravel, and MySQL for a seamless educational experience.",
+    img: "/p1.png",
+    iconLists: ["/php.svg", "/tail.svg", "/mysql.svg", "/laravel.svg"],
+    link: "https://gmels.eduhybrid.id",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Company Profile - Solway Group",
+    des: "A company profile website built with PHP, WordPress, and MySQL for easy content management.",
+    img: "/p2.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg"],
+    link: "https://solway.co.id",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Company Profile - Ascentia Arsya Analitika",
+    des: "A corporate website using WordPress and MySQL, showcasing company information and services.",
+    img: "/p3.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg", "/elementor.svg"],
+    link: "https://ascentia.co.id",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Company Profile - PT. Dynatech International",
+    des: "A corporate site with modern design using Elementor, built on WordPress.",
+    img: "/p4.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg", "/elementor.svg"],
+    link: "https://dynatech-int.com",
+  },
+  {
+    id: 5,
+    title: "Company Profile - PT KIM",
+    des: "A corporate website built with WordPress and MySQL, featuring a clean and modern design.",
+    img: "/p5.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg", "/elementor.svg"],
+    link: "https://ptkim.co.id",
+  },
+  {
+    id: 6,
+    title: "Company Profile - PT IniBae Teknologi Pintar",
+    des: "A company profile website built with PHP, Laravel, and MySQL, showcasing innovative technology solutions.",
+    img: "/p6.png",
+    iconLists: ["/php.svg", "/tail.svg", "/mysql.svg", "/laravel.svg"],
+    link: "https://inibae.com",
+  },
+  {
+    id: 7,
+    title: "Company Profile - Wilis Cipta Kreasi",
+    des: "A professional corporate website built with WordPress and MySQL, displaying company services.",
+    img: "/p7.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg", "/elementor.svg"],
+    link: "https://wilistradetech.com",
+  },
+  {
+    id: 8,
+    title: "Company Profile - Legistra",
+    des: "A corporate profile site built with WordPress and MySQL, featuring a user-friendly interface.",
+    img: "/p8.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg", "/elementor.svg"],
+    link: "https://legistra.id",
+  },
+  {
+    id: 9,
+    title: "Cuprum Oil",
+    des: "A company website built with WordPress and MySQL, providing information about the company’s oil business.",
+    img: "/p9.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg"],
+    link: "https://cuprum.co.id",
+  },
+  {
+    id: 10,
+    title: "STTAL - Sekolah Tinggi Teknologi Angkatan Laut",
+    des: "A dynamic Landing Page website, built with WordPress and MySQL, with modern web design.",
+    img: "/p10.png",
+    iconLists: ["/php.svg", "/wordpress.svg", "/mysql.svg", "/elementor.svg"],
+    link: "https://sttal.ac.id",
+  },
+  {
+    id: 11,
+    title: "Web App - Kas Perumahan",
+    des: "A web app for managing housing finances, built with Laravel and MySQL, offering a modern user experience.",
+    img: "/p11.png",
+    iconLists: ["/php.svg", "/tail.svg", "/mysql.svg", "/laravel.svg"],
+    link: "https://bnart1.inibae.com/",
   },
 ];
 
@@ -173,17 +229,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Fullstack Web Developer",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
+  },
+  {
+    id: 2,
+    title: "Web Developer",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 3,
@@ -194,7 +250,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Wordpress Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -205,13 +261,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/saddadnabbil", // Replace with your actual link
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wa.svg",
+    url: "https://wa.me/+628985560934", // Replace with your actual link
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/saddadnabbil", // Replace with your actual link
   },
 ];
